@@ -1,5 +1,7 @@
 import { google } from "googleapis";
 import PettyCashTable from "./PettyCashTable";
+export const dynamic = "force-dynamic";
+
 type PettyCashRow = {
   id: number;
   monthLabel: string;
